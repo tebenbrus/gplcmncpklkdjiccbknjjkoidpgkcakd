@@ -1,0 +1,20 @@
+{
+    "name": "NEUGradeSmart Extension",
+    "version": "3.2",
+    "description": "Enhancing Academic Integrity and Efficiency in Grading with AI-Powered Knowledge Management",
+    "manifest_version": 3,
+    "permissions": ["storage", "activeTab", "scripting"],
+    "host_permissions": ["https://app.copyleaks.com/"],
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "icons": {
+        "16": "assets/icons/icon-16x16.png",
+        "48": "assets/icons/icon-48x48.png",
+        "128": "assets/icons/icon-128x128.png"
+    },
+    "action": {
+        "default_popup": "index.html"
+    }
+}
